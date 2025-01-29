@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/*etiquetas generales*/
+h1 {color: $color-secundario;
+    font-size: nth($lista-fon-size,4);
+
+}
+
+
+h2 {color: $color-secundario;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    text-align: center;
+   
+}
+
+h3 {
+    font-size: nth($lista-fon-size, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    color: $color-tersiario
+}
+
+h4 {color: $color-principal;}
+   
+
+
+p {
+    color: $color-secundario;
+}
+
+a {
+    text-decoration: none;
+    color: $color-secundario
+}
+
+ol {
+    color: $color-cuarto
+}
+
+span {
+    color: $color-tersiario;
+    font-weight: bolder
+}
+
+section h2 {
+    color: $color-principal;
+    background-color: $color-secundario;
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 7vh;}
+
+a {
+    p {
+        text-align: center;
+        color: $color-secundario
+    }
+}
+
+section {
+    h3 {
+        color: $color-tersiario;
+        font-size: nth($lista-fon-size, 5);
+        text-align: center;
+    }
+}
+
+
+
+body {
+    background-color: $color-principal
+}
