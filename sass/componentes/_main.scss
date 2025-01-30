@@ -203,36 +203,35 @@
             font-family: 'Times New Roman', Times, serif;
             font-weight: bolder;
             font-size: nth($lista-fon-size, 4);
-            background-image: url(../imag/delivery.jpg);
             padding: 20px;
         }
 
         label {
-            width: 200px;
+            width: 300px;
             background-color: $color-principal;
             color: $color-secundario;
             padding: 4px;
         }
 
         input {
-            width: 200px;
+            width: 300px;
             padding: 2px;
         }
 
         select {
-            width: 200px;
+            width: 300px;
             padding: 2px;
         }
 
         textarea {
-            width: 200px;
+            width: 300px;
             padding: 2px;
         }
 
         form button {
             background-color: $color-principal;
             color: $color-secundario;
-            width: 200px;
+            width: 300px;
             padding: 2px
         }
 
@@ -244,7 +243,23 @@
             font-size: nth($lista-fon-size, 6);
         }
     }
+    .problemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imag/delivery.jpg);
+    }
 
+    .pedinos{
+ .alert-primary{ @extend %items1;
+    }
+   .alert-secondary
+    {@extend %items2;
+    }
+
+
+    }
     /*Quienes-somos*/
 
     .contenedor-video{
@@ -257,7 +272,7 @@
             .somos{
                 padding-top: 20px;
                 margin-left: 20px;}
-            p {background-color: rgb(20, 20, 20);
+            p {background-color: $color-principal;
                 color: rgb(238, 231, 231);
                 text-align: center;
                 margin-left: 10px;

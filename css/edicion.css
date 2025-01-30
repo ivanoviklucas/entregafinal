@@ -1,4 +1,23 @@
 /*mixin*/
+.pedinos .alert-primary {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.pedinos .alert-secondary {
+  background-color: #778DA9;
+  border: solid black 1px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-style: inherit;
+  font-weight: bolder;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -263,31 +282,30 @@ form .pedi-tu-envio {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: 25px;
-  background-image: url(../imag/delivery.jpg);
   padding: 20px;
 }
 form label {
-  width: 200px;
+  width: 300px;
   background-color: #0A0B0E;
   color: #FFFFFF;
   padding: 4px;
 }
 form input {
-  width: 200px;
+  width: 300px;
   padding: 2px;
 }
 form select {
-  width: 200px;
+  width: 300px;
   padding: 2px;
 }
 form textarea {
-  width: 200px;
+  width: 300px;
   padding: 2px;
 }
 form form button {
   background-color: #0A0B0E;
   color: #FFFFFF;
-  width: 200px;
+  width: 300px;
   padding: 2px;
 }
 form section ul li {
@@ -296,6 +314,14 @@ form section ul li {
   font-family: system-ui, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center;
   font-size: 40px;
+}
+
+.problemon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../imag/delivery.jpg);
 }
 
 /*Quienes-somos*/
@@ -316,7 +342,7 @@ form section ul li {
   margin-left: 20px;
 }
 .contenedor-video .texto p {
-  background-color: rgb(20, 20, 20);
+  background-color: #0A0B0E;
   color: rgb(238, 231, 231);
   text-align: center;
   margin-left: 10px;
