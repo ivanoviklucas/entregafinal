@@ -272,6 +272,10 @@ body {
   text-align: center;
   margin-top: 20px;
 }
+.solicitud .problemon {
+  display: flex;
+  flex-direction: column;
+}
 
 form .pedi-tu-envio {
   display: flex;
@@ -633,7 +637,7 @@ header {
   .contenedor-video .texto {
     text-align: left;
   }
-  .contenedor-video .texto h2 {
+  .contenedor-video .texto .somos {
     padding-top: 30px;
     padding-left: 30px;
   }
@@ -660,6 +664,10 @@ header {
   }
   .solicitud {
     margin-top: 10px;
+  }
+  .problemon {
+    display: flex;
+    flex-direction: column;
   }
   .tiempo-valioso h2 {
     background-color: #0A0B0E;
@@ -748,9 +756,9 @@ header {
   .contenedor-video .texto {
     text-align: left;
   }
-  .contenedor-video .texto h2 {
+  .contenedor-video .texto .somos {
+    width: 95%;
     padding-top: 30px;
-    padding-left: 30px;
   }
   .contenedor-video .texto p {
     padding-left: 20px;

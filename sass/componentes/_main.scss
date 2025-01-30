@@ -37,7 +37,7 @@
                 color: $color-principal;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 text-decoration: underline;
-                font-size: nth($lista-fon-size, 3)
+                font-size: nth($lista-fon-size,3);
             }
 
         }
@@ -193,6 +193,9 @@
 
         text-align: center;
         margin-top: 20px;
+        .problemon{display:flex;
+            flex-direction: column;
+        }
 
     }
 

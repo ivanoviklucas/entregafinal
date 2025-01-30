@@ -109,10 +109,10 @@
         .texto {
             text-align: left;
 
-            h2 {
+            .somos{
                 padding-top: 30px;
                 padding-left: 30px;
-
+               
             }
 
             p {
@@ -146,6 +146,10 @@
 
     .solicitud {
         margin-top: 10px;
+    }
+    .problemon{
+        display:flex;
+        flex-direction: column;
     }
 
     .tiempo-valioso {
@@ -245,11 +249,12 @@
         @include flex(flex, column, space-between, center);
 
         .texto {
+            
             text-align: left;
 
-            h2 {
+            .somos{
+                width: 95%;
                 padding-top: 30px;
-                padding-left: 30px;
 
             }
 
