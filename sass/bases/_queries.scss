@@ -140,9 +140,10 @@
         margin-right: 15px;
     }
 
-    .main-contacto {
-        padding-top: 30px
-    }
+    .main-contacto { 
+        .redes-contacto{
+        background-color: rgba(252, 247, 247, 0.938);
+            border-radius: 80px}
 
     .solicitud {
         margin-top: 10px;
@@ -405,4 +406,4 @@
 
         }
     }
-}
+}}

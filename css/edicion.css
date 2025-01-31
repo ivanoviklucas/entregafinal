@@ -659,22 +659,23 @@ header {
     margin-left: 15px;
     margin-right: 15px;
   }
-  .main-contacto {
-    padding-top: 30px;
+  .main-contacto .redes-contacto {
+    background-color: rgba(252, 247, 247, 0.938);
+    border-radius: 80px;
   }
-  .solicitud {
+  .main-contacto .solicitud {
     margin-top: 10px;
   }
-  .problemon {
+  .main-contacto .problemon {
     display: flex;
     flex-direction: column;
   }
-  .tiempo-valioso h2 {
+  .main-contacto .tiempo-valioso h2 {
     background-color: #0A0B0E;
     color: #FFFFFF;
   }
 }
-@media screen and (min-width: 551px) and (max-width: 977px) {
+@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 551px) and (max-width: 977px) {
   header {
     height: 60px;
   }
@@ -808,7 +809,7 @@ header {
     margin-top: 10px;
   }
 }
-@media screen and (min-width: 977px) and (max-width: 1389px) {
+@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 977px) and (max-width: 1389px) {
   .contenedor-entrega {
     display: flex;
     flex-direction: column;
@@ -865,7 +866,7 @@ header {
     transition: transform 0.5s ease-in-out;
   }
 }
-@media screen and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
+@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
   .footer-padre {
     display: flex;
     flex-direction: row;
@@ -873,7 +874,7 @@ header {
     align-items: center;
   }
 }
-@media screen and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
+@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
   .footer-padre {
     display: flex;
     flex-direction: row;
