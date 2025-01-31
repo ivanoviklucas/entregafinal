@@ -96,7 +96,10 @@
     }
 
     .solicitud {
-        padding-top: 15px
+        padding-top: 15px;
+    }
+    .problemon{
+        flex-direction: column;
     }
 
     .zona {
@@ -144,14 +147,8 @@
         .redes-contacto{
         background-color: rgba(252, 247, 247, 0.938);
             border-radius: 80px}
-
-    .solicitud {
-        margin-top: 10px;
     }
-    .problemon{
-        display:flex;
-        flex-direction: column;
-    }
+    
 
     .tiempo-valioso {
         h2 {
@@ -406,4 +403,4 @@
 
         }
     }
-}}
+}

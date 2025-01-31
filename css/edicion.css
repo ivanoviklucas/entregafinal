@@ -622,6 +622,9 @@ header {
   .solicitud {
     padding-top: 15px;
   }
+  .problemon {
+    flex-direction: column;
+  }
   .zona {
     display: flex;
     flex-direction: column;
@@ -663,19 +666,12 @@ header {
     background-color: rgba(252, 247, 247, 0.938);
     border-radius: 80px;
   }
-  .main-contacto .solicitud {
-    margin-top: 10px;
-  }
-  .main-contacto .problemon {
-    display: flex;
-    flex-direction: column;
-  }
-  .main-contacto .tiempo-valioso h2 {
+  .tiempo-valioso h2 {
     background-color: #0A0B0E;
     color: #FFFFFF;
   }
 }
-@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 551px) and (max-width: 977px) {
+@media screen and (min-width: 551px) and (max-width: 977px) {
   header {
     height: 60px;
   }
@@ -809,7 +805,7 @@ header {
     margin-top: 10px;
   }
 }
-@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 977px) and (max-width: 1389px) {
+@media screen and (min-width: 977px) and (max-width: 1389px) {
   .contenedor-entrega {
     display: flex;
     flex-direction: column;
@@ -866,7 +862,7 @@ header {
     transition: transform 0.5s ease-in-out;
   }
 }
-@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
+@media screen and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
   .footer-padre {
     display: flex;
     flex-direction: row;
@@ -874,7 +870,7 @@ header {
     align-items: center;
   }
 }
-@media screen and (min-width: 349px) and (max-width: 551px) and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
+@media screen and (min-width: 977px) and (max-width: 1389px) and (min-width: 1389px) {
   .footer-padre {
     display: flex;
     flex-direction: row;
