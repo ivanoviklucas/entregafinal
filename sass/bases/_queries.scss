@@ -145,7 +145,7 @@
 
     .main-contacto { 
         .redes-contacto{
-        background-color: rgba(252, 247, 247, 0.938);
+        background-color: $color-cuarto;
             border-radius: 80px}
     }
     
@@ -277,55 +277,12 @@
     }
 
     .main-contacto {
-        .whatsapp {
-            height: 15vh;
-
-            h4 {
-                font-size: nth($lista-fon-size, 5);
-            }
-
-            img {
-                height: 8vh;
-                width: 10vw
-            }
-        }
-    }
-
-    .main-contacto {
-        .instagram {
-            height: 15vh;
-
-            .titulo-negro {
-                font-size: nth($lista-fon-size, 5);
-            }
-
-            img {
-                height: 12vh;
-                width: 20vw
-            }
-        }
-    }
-
-    .main-contacto {
-        .facebook {
-            height: 15vh;
-
-            h4 {
-                font-size: nth($lista-fon-size, 5);
-            }
-
-            img {
-                height: 8vh;
-                width: 14vw;
-            }
-        }
-    }
-
+        .redes-contacto{
+            background-color: white;
+                border-radius: 80px}}
+        
     .solicitud {
         margin-top: 10px
-    }
-    .problemon{
-        flex-direction: column;
     }
 }
 

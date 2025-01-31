@@ -373,7 +373,7 @@ form section ul li {
   align-items: center;
   height: 50px;
   margin: 28px;
-  background-color: rgba(187, 179, 179, 0.938);
+  background-color: #778DA9;
   border-radius: 80px;
 }
 .main-contacto .redes-contacto img {
@@ -663,7 +663,7 @@ header {
     margin-right: 15px;
   }
   .main-contacto .redes-contacto {
-    background-color: rgba(252, 247, 247, 0.938);
+    background-color: #778DA9;
     border-radius: 80px;
   }
   .tiempo-valioso h2 {
@@ -771,41 +771,12 @@ header {
   .contenedor-video video {
     width: 500px;
   }
-  .main-contacto .whatsapp {
-    height: 15vh;
-  }
-  .main-contacto .whatsapp h4 {
-    font-size: 30px;
-  }
-  .main-contacto .whatsapp img {
-    height: 8vh;
-    width: 10vw;
-  }
-  .main-contacto .instagram {
-    height: 15vh;
-  }
-  .main-contacto .instagram .titulo-negro {
-    font-size: 30px;
-  }
-  .main-contacto .instagram img {
-    height: 12vh;
-    width: 20vw;
-  }
-  .main-contacto .facebook {
-    height: 15vh;
-  }
-  .main-contacto .facebook h4 {
-    font-size: 30px;
-  }
-  .main-contacto .facebook img {
-    height: 8vh;
-    width: 14vw;
+  .main-contacto .redes-contacto {
+    background-color: white;
+    border-radius: 80px;
   }
   .solicitud {
     margin-top: 10px;
-  }
-  .problemon {
-    flex-direction: column;
   }
 }
 @media screen and (min-width: 977px) and (max-width: 1389px) {
