@@ -804,6 +804,9 @@ header {
   .solicitud {
     margin-top: 10px;
   }
+  .problemon {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 977px) and (max-width: 1389px) {
   .contenedor-entrega {
