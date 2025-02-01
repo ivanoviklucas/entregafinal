@@ -37,7 +37,7 @@
                 color: $color-principal;
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 text-decoration: underline;
-                font-size: nth($lista-fon-size,3);
+                font-size: nth($lista-fon-size, 3);
             }
 
         }
@@ -100,7 +100,18 @@
                 height: 70%;
                 width: 50%;
             }
-
+        }
+            .servicio-2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                img {
+                    height: 70%;
+                    width: 50%;
+                }
+            }
             h3 {
                 color: $color-principal;
                 background: cover;
@@ -113,9 +124,6 @@
                 transition: transform 0.5s ease-in-out
             }
         }
-
-
-    }
 
     .grid-index .servicio h3:hover {
         transform: translateY(-30px);
@@ -193,7 +201,9 @@
 
         text-align: center;
         margin-top: 20px;
-        .problemon{display:flex;
+
+        .problemon {
+            display: flex;
             flex-direction: column;
         }
 
@@ -246,36 +256,45 @@
             font-size: nth($lista-fon-size, 6);
         }
     }
-    .problemon{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url(../imag/delivery.jpg);
+
+    .problemon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(../imag/delivery.jpg);
     }
 
-    .pedinos{
- .alert-primary{ @extend %items1;
-    }
-   .alert-secondary
-    {@extend %items2;
-    }
+    .pedinos {
+        .alert-primary {
+            @extend %items1;
+        }
+
+        .alert-secondary {
+            @extend %items2;
+        }
 
 
     }
+
     /*Quienes-somos*/
 
-    .contenedor-video{
+    .contenedor-video {
         @include flex(flex, row, space-evenly, center);
+
         .texto {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-          text-align: left;
-            .somos{
+            text-align: left;
+
+            .somos {
                 padding-top: 20px;
-                margin-left: 20px;}
-            p {background-color: $color-principal;
+                margin-left: 20px;
+            }
+
+            p {
+                background-color: $color-principal;
                 color: rgb(238, 231, 231);
                 text-align: center;
                 margin-left: 10px;
@@ -289,105 +308,124 @@
             }
 
         }
-        .video{
-           video{ 
-            margin-right: 3px  ;
-            width: 600px;
-            height: 600px;
-           }
+
+        .video {
+            video {
+                margin-right: 3px;
+                width: 600px;
+                height: 600px;
+            }
         }
-  
+
     }
 
     .main-contacto {
-         h2{margin-top: 20px;}
-        .redes-contacto{display: flex;
+        h2 {
+            margin-top: 20px;
+        }
+
+        .redes-contacto {
+            display: flex;
             flex-direction: row;
-            justify-content: space-evenly; 
+            justify-content: space-evenly;
             align-items: center;
             height: 50px;
-            margin:28px;
+            margin: 28px;
             background-color: rgba(187, 179, 179, 0.938);
-                border-radius: 80px;
+            border-radius: 80px;
 
-            img { padding-top: 1px;
+            img {
+                padding-top: 1px;
                 width: 5vw;
                 height: 5vh;
                 position: sticky;
-                
+
             }
         }
-            
-
-          }
-        
 
 
-        .form-contacto {
-            padding-top: 15px;
-            margin-bottom: 30px;
+    }
+
+
+
+    .form-contacto {
+        padding-top: 15px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: nth($colores-contacto, 3);
+
+
+        .formulario {
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: nth($colores-contacto, 3);
+            margin-top: 20px;
+            padding: 25px;
+            width: 25%;
+            background-color: rgba(128, 128, 128, 0.3);
+            border-radius: 80px;
+            margin-top: 5px;
+            margin-bottom: 5px;
 
-
-            .formulario {
+            .row {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                align-items: flex-start;
+                margin-bottom: 8px;
+                gap: 8px;
+                margin-right: 2px;
                 margin-top: 20px;
-                padding: 25px;
-                width: 25%;
-                background-color: rgba(128, 128, 128, 0.3);
-                border-radius: 80px;
-                margin-top: 5px;
-                margin-bottom: 5px;
 
-                .row {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    margin-bottom: 8px;
-                    gap: 8px;
-                    margin-right: 2px;
-                    margin-top:20px;
-                    .label-especial{margin-left: 12px;}
-                    label{
-                        width: 230px;
-                        margin-bottom: 0px !important;
-                        border-radius: 5px;}
+                .label-especial {
+                    margin-left: 12px;
                 }
-                .form-select {
+
+                label {
                     width: 230px;
-                }
-                .form-check{padding-left: 0px;}
-                .form-check-input {
-                    margin-top: 10px;
-                }
-                .form-label{margin-top: 10px;}
-
-                .form-check-label {
-                    width: 205px;
-                    margin-top: 10px;
-                }
-
-                .btn-primary {
-                    margin: 20px;
-                }
-
-                .form-input {
-                    width: 250px;
-                }
-
-                .form-control {
-                    width: 230px;
+                    margin-bottom: 0px !important;
+                    border-radius: 5px;
                 }
             }
 
+            .form-select {
+                width: 230px;
+            }
+
+            .form-check {
+                padding-left: 0px;
+            }
+
+            .form-check-input {
+                margin-top: 10px;
+            }
+
+            .form-label {
+                margin-top: 10px;
+            }
+
+            .form-check-label {
+                width: 205px;
+                margin-top: 10px;
+            }
+
+            .btn-primary {
+                margin: 20px;
+            }
+
+            .form-input {
+                width: 250px;
+            }
+
+            .form-control {
+                width: 230px;
+            }
         }
 
-    
+    }
+
+
 
 
     aside {

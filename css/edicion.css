@@ -188,7 +188,17 @@ body {
   height: 70%;
   width: 50%;
 }
-.grid-index .servicio h3 {
+.grid-index .servicio-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-index .servicio-2 img {
+  height: 70%;
+  width: 50%;
+}
+.grid-index h3 {
   color: #0A0B0E;
   background: cover;
   background-color: rgba(5, 7, 12, 0.004);
@@ -584,14 +594,23 @@ header {
   }
   .grid-index .titulo-servicio {
     background-color: rgba(5, 7, 12, 0.004);
-    margin-bottom: 20px;
   }
   .grid-index .titulo-servicio .servicio img {
     height: 150px;
     width: 150px;
     margin-top: 10;
   }
-  .grid-index .titulo-servicio .servicio h3 {
+  .grid-index .titulo-servicio .servicio-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-index .titulo-servicio .servicio-2 img {
+    height: 300px;
+    width: 300px;
+  }
+  .grid-index .titulo-servicio h3 {
     color: #0A0B0E;
     background: cover;
     background-color: rgba(5, 7, 12, 0.004);
@@ -602,79 +621,87 @@ header {
     transition-delay: 2seg;
     transition: transform 0.5s ease-in-out;
   }
-  .footer-padre {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 30px;
-  }
-  .footer-padre .cajas-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    font-size: 20px;
-  }
-  .footer-padre .cajas-footer img {
-    height: 15vh;
-    width: 15vw;
-  }
-  .solicitud {
-    padding-top: 15px;
-  }
-  .problemon {
-    flex-direction: column;
-  }
-  .zona {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .contenedor-video {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    overflow-x: hidden;
-  }
-  .contenedor-video .texto {
-    text-align: left;
-  }
-  .contenedor-video .texto .somos {
-    width: 95%;
-    padding-top: 30px;
-  }
-  .contenedor-video .texto p {
-    padding-left: 20px;
-    font-size: 25px;
-    margin-right: 10px;
-  }
-  .contenedor-video video {
-    width: 500px;
-  }
-  section h2 {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  .main-contacto .redes-contacto {
-    background-color: rgb(7, 183, 253);
-    border-radius: 80px;
-  }
-  .main-contacto .form-contacto .formulario {
-    width: 80%;
-  }
-  .main-contacto .form-contacto .formulario .row {
-    padding-left: 12px;
-    text-align: center;
-  }
-  .tiempo-valioso h2 {
-    background-color: #0A0B0E;
-    color: #FFFFFF;
-  }
 }
+.footer-padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+.footer-padre .cajas-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  font-size: 20px;
+}
+.footer-padre .cajas-footer img {
+  height: 15vh;
+  width: 15vw;
+}
+
+.solicitud {
+  padding-top: 15px;
+}
+
+.problemon {
+  flex-direction: column;
+}
+
+.zona {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+}
+.contenedor-video .texto {
+  text-align: left;
+}
+.contenedor-video .texto .somos {
+  width: 95%;
+  padding-top: 30px;
+}
+.contenedor-video .texto p {
+  padding-left: 20px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.contenedor-video video {
+  width: 500px;
+}
+
+section h2 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.main-contacto .redes-contacto {
+  background-color: rgb(7, 183, 253);
+  border-radius: 80px;
+}
+.main-contacto .form-contacto .formulario {
+  width: 80%;
+}
+.main-contacto .form-contacto .formulario .row {
+  padding-left: 12px;
+  text-align: center;
+}
+
+.tiempo-valioso h2 {
+  background-color: #0A0B0E;
+  color: #FFFFFF;
+}
+
 @media screen and (min-width: 551px) and (max-width: 977px) {
   header {
     height: 60px;
