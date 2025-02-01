@@ -291,7 +291,7 @@
         }
         .video{
            video{ 
-            margin-right: 3   ;
+            margin-right: 3px  ;
             width: 600px;
             height: 600px;
            }
@@ -307,7 +307,7 @@
             align-items: center;
             height: 50px;
             margin:28px;
-            background-color: $color-cuarto;
+            background-color: rgba(187, 179, 179, 0.938);
                 border-radius: 80px;
 
             img { padding-top: 1px;

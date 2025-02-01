@@ -1,7 +1,7 @@
 @media screen and (min-width: 349px)and (max-width: 551px) {
 
     header {
-        height: 60px
+        height: 60px;
     }
 
     .contenedor-entrega {
@@ -98,7 +98,8 @@
     .solicitud {
         padding-top: 15px;
     }
-    .problemon{
+
+    .problemon {
         flex-direction: column;
     }
 
@@ -108,20 +109,21 @@
 
     .contenedor-video {
         @include flex(flex, column, space-between, center);
-
+        padding-left: 10px;
+        padding-right: 20px;
         .texto {
             text-align: left;
+            width: 100%;
 
-            .somos{
+            .somos {width: 90%;;
                 padding-top: 30px;
                 padding-left: 30px;
-               
+
             }
 
             p {
                 padding-left: 20px;
                 font-size: nth($lista-fon-size, 2);
-                margin-right: 15px;
             }
 
             ol li {
@@ -143,12 +145,25 @@
         margin-right: 15px;
     }
 
-    .main-contacto { 
-        .redes-contacto{
-        background-color: rgb(7, 183, 253);
-            border-radius: 80px}
-    }
+    .main-contacto {
+        .redes-contacto {
+            background-color: rgb(7, 183, 253);
+            border-radius: 80px
+        }
+
+        .form-contacto {
+            .formulario {
+                width: 80%;
     
+                .row {
+                    padding-left: 12px;
+                    text-align: center;
+                }
+    
+            }
+        }
+    }
+
 
     .tiempo-valioso {
         h2 {
@@ -157,6 +172,7 @@
         }
 
     }
+
 }
 
 @media screen and (min-width: 551px)and (max-width: 977px) {
@@ -247,10 +263,10 @@
         @include flex(flex, column, space-between, center);
 
         .texto {
-            
+
             text-align: left;
 
-            .somos{
+            .somos {
                 width: 95%;
                 padding-top: 30px;
 
@@ -277,16 +293,28 @@
     }
 
     .main-contacto {
-        .redes-contacto{
+        .redes-contacto {
             background-color: white;
-                border-radius: 80px}}
-        
+            border-radius: 80px
+        }
+    }
+
     .solicitud {
         margin-top: 10px
     }
+
+    .form-contacto {
+        .formulario {
+            width: 30%;
+
+            .row {
+                padding-left: 12px;
+                text-align: center;
+            }
+
+        }
+    }
 }
-
-
 
 @media screen and (min-width: 977px)and (max-width: 1389px) {
 
@@ -350,17 +378,22 @@
         transition: transform 0.5s ease-in-out;
     }
 
-    @media screen and (min-width:1389px) {
-        .footer-padre {
-            @include flex (flex, row, space-evenly, center);
+    .form-contacto {
+        .formulario {
+            width: 30%;
+
+            .row {
+                padding-left: 12px;
+                text-align: center;
+            }
+
         }
     }
+
+}
 
     @media screen and (min-width:1389px) {
         .footer-padre {
             @include flex (flex, row, space-evenly, center);
-            margin-top: 20px;
-
         }
-    }
 }
