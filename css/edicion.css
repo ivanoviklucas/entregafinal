@@ -542,9 +542,6 @@ header {
   header {
     height: 60px;
   }
-  .fixed-top {
-    position: sticky;
-  }
   .contenedor-entrega {
     display: flex;
     flex-direction: column;
@@ -639,30 +636,22 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 20px;
+    overflow-x: hidden;
   }
   .contenedor-video .texto {
     text-align: left;
-    width: 100%;
   }
   .contenedor-video .texto .somos {
-    width: 90%;
+    width: 95%;
     padding-top: 30px;
-    padding-left: 30px;
   }
   .contenedor-video .texto p {
     padding-left: 20px;
-    font-size: 15px;
-  }
-  .contenedor-video .texto ol li {
-    margin-left: 10px;
+    font-size: 25px;
     margin-right: 10px;
-    line-height: 50px;
-    font-size: 30px;
   }
   .contenedor-video video {
-    width: 400px;
+    width: 500px;
   }
   section h2 {
     margin-left: 15px;
