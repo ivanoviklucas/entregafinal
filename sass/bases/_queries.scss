@@ -53,11 +53,12 @@
     .grid-index {
         .titulo-servicio {
             background-color: rgb(5, 7, 12, 0.40%);
-
+            margin-bottom: 20px;
             .servicio {
                 img {
-                    height: 80%;
-                    width: 80%;
+                    height: 150px;
+                    width: 150px;
+                    margin-top: 10
                 }
 
                 h3 {
@@ -220,8 +221,8 @@
     .grid-index {
         .servicio {
             img {
-                height: 80%;
-                width: 80%;
+                height: 200px;
+                width: 200px;
             }
 
             h3 {

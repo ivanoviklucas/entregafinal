@@ -584,10 +584,12 @@ header {
   }
   .grid-index .titulo-servicio {
     background-color: rgba(5, 7, 12, 0.004);
+    margin-bottom: 20px;
   }
   .grid-index .titulo-servicio .servicio img {
-    height: 80%;
-    width: 80%;
+    height: 150px;
+    width: 150px;
+    margin-top: 10;
   }
   .grid-index .titulo-servicio .servicio h3 {
     color: #0A0B0E;
@@ -715,8 +717,8 @@ header {
     width: 60px;
   }
   .grid-index .servicio img {
-    height: 80%;
-    width: 80%;
+    height: 200px;
+    width: 200px;
   }
   .grid-index .servicio h3 {
     color: #0A0B0E;
