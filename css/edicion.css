@@ -600,17 +600,7 @@ header {
     width: 150px;
     margin-top: 10;
   }
-  .grid-index .titulo-servicio .servicio-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .grid-index .titulo-servicio .servicio-2 img {
-    height: 300px;
-    width: 300px;
-  }
-  .grid-index .titulo-servicio h3 {
+  .grid-index h3 {
     color: #0A0B0E;
     background: cover;
     background-color: rgba(5, 7, 12, 0.004);
