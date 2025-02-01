@@ -3,6 +3,8 @@
     header {
         height: 60px;
     }
+    .fixed-top {
+        position: sticky;}
 
     .contenedor-entrega {
         @include flex (flex, column, center, center);
@@ -111,11 +113,14 @@
         @include flex(flex, column, space-between, center);
         padding-left: 10px;
         padding-right: 20px;
+
         .texto {
             text-align: left;
             width: 100%;
 
-            .somos {width: 90%;;
+            .somos {
+                width: 90%;
+                ;
                 padding-top: 30px;
                 padding-left: 30px;
 
@@ -154,12 +159,12 @@
         .form-contacto {
             .formulario {
                 width: 80%;
-    
+
                 .row {
                     padding-left: 12px;
                     text-align: center;
                 }
-    
+
             }
         }
     }
@@ -392,8 +397,8 @@
 
 }
 
-    @media screen and (min-width:1389px) {
-        .footer-padre {
-            @include flex (flex, row, space-evenly, center);
-        }
+@media screen and (min-width:1389px) {
+    .footer-padre {
+        @include flex (flex, row, space-evenly, center);
+    }
 }
