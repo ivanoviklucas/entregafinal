@@ -188,16 +188,6 @@ body {
   height: 70%;
   width: 50%;
 }
-.grid-index .servicio-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.grid-index .servicio-2 img {
-  height: 70%;
-  width: 50%;
-}
 .grid-index h3 {
   color: #0A0B0E;
   background: cover;
@@ -239,6 +229,10 @@ body {
   height: 40vh;
   margin-top: 20px;
   object-fit: contain;
+}
+
+.carousel-moto {
+  margin-top: 20px;
 }
 
 .carousel-control-prev {
@@ -665,12 +659,21 @@ header {
     font-size: 25px;
     margin-right: 10px;
   }
-  .contenedor-video video {
-    width: 500px;
+  .contenedor-video .video {
+    margin-top: 0px;
+  }
+  .contenedor-video .video video {
+    padding-bottom: 25px;
+    width: 380px;
   }
   section h2 {
     margin-left: 15px;
     margin-right: 15px;
+  }
+  .section-especial h2 {
+    font-size: 35px;
+    background-color: #0A0B0E;
+    color: white;
   }
   .main-contacto .redes-contacto {
     background-color: rgb(7, 183, 253);
@@ -728,6 +731,9 @@ header {
     padding-bottom: 20px;
     height: 60x;
     width: 60px;
+  }
+  .grid-index {
+    margin-bottom: 30px;
   }
   .grid-index .servicio img {
     height: 200px;
@@ -815,6 +821,9 @@ header {
     margin-top: 30px;
     height: 50%;
     background-color: white;
+  }
+  .carousel-moto {
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 977px) and (max-width: 1389px) {

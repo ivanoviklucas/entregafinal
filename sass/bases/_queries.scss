@@ -50,7 +50,8 @@
 
     }
 
-    .grid-index {display: grid;
+    .grid-index {
+        display: grid;
         grid-template-columns: 1.5fr 3fr 1.5fr;
 
         .titulo-servicio {
@@ -63,19 +64,20 @@
                     margin-top: 10px
                 }
             }
-                }      
-                h3 {
-                    color: #0A0B0E;
-                    background: cover;
-                    background-color: rgba(5, 7, 12, 0.004);
-                    font-size: 25px;
-                    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-                    font-weight: bolder;
-                    transform: translate(0px);
-                    transition-delay: 2seg;
-                    transition: transform 0.5s ease-in-out;
-                }
-            }
+        }
+
+        h3 {
+            color: #0A0B0E;
+            background: cover;
+            background-color: rgba(5, 7, 12, 0.004);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+            font-weight: bolder;
+            transform: translate(0px);
+            transition-delay: 2seg;
+            transition: transform 0.5s ease-in-out;
+        }
+    }
 
 
 
@@ -134,15 +136,25 @@
 
         }
 
-        video {
-            width: 500px;
+        .video {
+            margin-top: 0px;
+
+            video {
+                padding-bottom: 25px;
+                width: 380px;;
+            }
         }
     }
-
     section h2 {
         margin-left: 15px;
         margin-right: 15px;
     }
+   .section-especial{
+    h2{
+    font-size: 35px;
+    background-color: $color-principal;
+    color:white;
+   }}
 
     .main-contacto {
         .redes-contacto {
@@ -172,6 +184,7 @@
 
     }
 }
+
 @media screen and (min-width: 551px)and (max-width: 977px) {
 
     header {
@@ -219,6 +232,8 @@
     }
 
     .grid-index {
+        margin-bottom: 30px;
+
         .servicio {
             img {
                 height: 200px;
@@ -242,7 +257,7 @@
 
     .footer-padre {
         @include flex (flex, column, space-evenly, center);
-        margin-top :30px;
+        margin-top: 30px;
 
         .cajas-footer {
             @include flex(flex, column, center, center);
@@ -294,38 +309,44 @@
             }
         }
     }
-        .main-contacto {
-            .redes-contacto {
-                background-color: white;
-                border-radius: 80px
-            }
-        }
 
-        .solicitud {
-            margin-top: 10px
-        }
-
-        .form-contacto {
-            .formulario {
-                width: 50%;
-                .row {
-                    padding-left: 12px;
-                    text-align: center;
-                }
-
-            }
-        }
-
-        .tiempo-valioso {
-            h2 {
-                @include flex(flex, column, center, center);
-                margin-top: 30px;
-                height: 50%;
-                background-color: white;
-
-            }
+    .main-contacto {
+        .redes-contacto {
+            background-color: white;
+            border-radius: 80px
         }
     }
+
+    .solicitud {
+        margin-top: 10px
+    }
+
+    .form-contacto {
+        .formulario {
+            width: 50%;
+
+            .row {
+                padding-left: 12px;
+                text-align: center;
+            }
+
+        }
+    }
+
+    .tiempo-valioso {
+        h2 {
+            @include flex(flex, column, center, center);
+            margin-top: 30px;
+            height: 50%;
+            background-color: white;
+
+        }
+    }
+
+    .carousel-moto {
+        margin-top: 20px;
+    }
+}
 
 
 @media screen and (min-width: 977px)and (max-width: 1389px) {
