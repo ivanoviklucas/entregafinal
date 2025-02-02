@@ -392,7 +392,7 @@ form section ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(7, 183, 253);
+  background-color: rgb(180, 179, 187);
 }
 .form-contacto .formulario {
   display: flex;

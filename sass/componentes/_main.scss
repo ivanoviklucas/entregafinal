@@ -333,7 +333,7 @@
         padding-top: 15px;
         margin-bottom: 30px;
         @include flex(flex, column, center, center);
-        background-color: nth($colores-contacto,1);
+        background-color: nth($colores-contacto, 3);
 
 
         .formulario {
