@@ -677,7 +677,7 @@ header {
     color: #FFFFFF;
   }
   .main-contacto .redes-contacto {
-    background-color: rgb(7, 183, 253);
+    background-color: rgba(180, 179, 187, 0.938);
     border-radius: 80px;
   }
   .main-contacto .form-contacto .formulario {
