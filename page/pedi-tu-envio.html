@@ -14,6 +14,13 @@
   <meta name="description" content="Envios a caba y GBA. Envios de comida-oficina-paqueteria. hacenos tu PEDIDO">
   <!--favicon-->
   <link rel="shortcut icon" href="../imag/favicon-moto/favicon-16x16.png" type="image/x-icon">
+  <!--protocolo open graph-->
+  <meta property="og:title" content="motomoto" />
+  <meta property="og:description" content="Solicita tus pedidos en nuestra web." />
+  <meta property="og:image" content="../imag/logo-de-pagina.png" />
+  <meta property="og:url" content="https://motomoto-motopedidos.netlify.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Nombre del sitio web" />
   <title>MotoMoto| pedi tu envio</title>
 </head>
 
@@ -62,50 +69,50 @@
     <!-- aca iria un formulario de solicitud de viaje como todavia no se vimos formularios lo reemplace por texto-->
     <h2 class="solicitud">COMPLETA TU SOLICITUD</h2>
     <div class="contenedor-form-sello">
-    <form class="form" action="#" method="post">
-      <div class="pedi-tu-envio">
-        <label for="zona-1">Zona de retiro</label>
-        <select name="zona_retiro" id="zona-1">
-          <option value="caba">CABA</option>
-          <option value="gba_sur">GBA SUR</option>
-          <option value="gba_norte">GBA Norte</option>
-          <option value="gba_oeste">GBA Oeste</option>
-          <option value="gba_este">GBA Este</option>
-        </select>
-        <label for="direccion-de-retiro">Dirección de retiro</label>
-        <input type="text" name="direccion_retiro" id="direccion-de-retiro">
-        <label for="fecha-de-retiro">Fecha de retiro</label>
-        <input type="date" name="fecha_retiro" value="2024-11-28" min="2024-11-28" max="2025-12-31">
-        <input type="time" name="hora_retiro">
-        <label for="zona-2">Zona de entrega</label>
-        <select name="zona_entrega" id="zona-2">
-          <option value="caba">CABA</option>
-          <option value="gba_sur">GBA SUR</option>
-          <option value="gba_norte">GBA Norte</option>
-          <option value="gba_oeste">GBA Oeste</option>
-          <option value="gba_este">GBA Este</option>
-        </select>
-        <label for="direccion-de-entrega">Dirección de entrega</label>
-        <input type="text" name="direccion_entrega" id="direccion-de-entrega">
-        <label for="fecha-de-entrega">Fecha de entrega</label>
-        <input type="date" name="fecha_entrega" min="2024-11-28" max="2025-12-31">
-        <input type="time" name="hora_entrega">
-        <label for="observaciones">Describe tu pedido</label>
-        <textarea name="observaciones" rows="4" cols="5"></textarea>
-        <button type="submit">Enviar formulario</button>
+      <form class="form" action="#" method="post">
+        <div class="pedi-tu-envio">
+          <label for="zona-1">Zona de retiro</label>
+          <select name="zona_retiro" id="zona-1">
+            <option value="caba">CABA</option>
+            <option value="gba_sur">GBA SUR</option>
+            <option value="gba_norte">GBA Norte</option>
+            <option value="gba_oeste">GBA Oeste</option>
+            <option value="gba_este">GBA Este</option>
+          </select>
+          <label for="direccion-de-retiro">Dirección de retiro</label>
+          <input type="text" name="direccion_retiro" id="direccion-de-retiro">
+          <label for="fecha-de-retiro">Fecha de retiro</label>
+          <input type="date" name="fecha_retiro" value="2024-11-28" min="2024-11-28" max="2025-12-31">
+          <input type="time" name="hora_retiro">
+          <label for="zona-2">Zona de entrega</label>
+          <select name="zona_entrega" id="zona-2">
+            <option value="caba">CABA</option>
+            <option value="gba_sur">GBA SUR</option>
+            <option value="gba_norte">GBA Norte</option>
+            <option value="gba_oeste">GBA Oeste</option>
+            <option value="gba_este">GBA Este</option>
+          </select>
+          <label for="direccion-de-entrega">Dirección de entrega</label>
+          <input type="text" name="direccion_entrega" id="direccion-de-entrega">
+          <label for="fecha-de-entrega">Fecha de entrega</label>
+          <input type="date" name="fecha_entrega" min="2024-11-28" max="2025-12-31">
+          <input type="time" name="hora_entrega">
+          <label for="observaciones">Describe tu pedido</label>
+          <textarea name="observaciones" rows="4" cols="5"></textarea>
+          <button type="submit">Enviar formulario</button>
+        </div>
+      </form>
+      <div class="pedinos">
+        <div class="alert alert-primary" role="alert">
+          el paquete debe estar completamente sellado
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          sino esta correctamente sellado no lo retiramos
+        </div>
+        <div class="alert alert-primary " role="alert">
+          Para cambiar el domicilio de retiro o entrega tiene hasta 24hs antes del dia de realizacion
+        </div>
       </div>
-    </form>
-    <div class="pedinos">
-      <div class="alert alert-primary" role="alert">
-        el paquete debe estar completamente sellado
-      </div>
-      <div class="alert alert-secondary" role="alert">
-       sino esta correctamente sellado no lo retiramos
-      </div>
-      <div class="alert alert-primary " role="alert">
-        Para cambiar el domicilio de retiro o entrega tiene hasta 24hs antes del dia de realizacion
-      </div>
-    </div>
     </div>
   </main>
   <footer class="footer-padre">
