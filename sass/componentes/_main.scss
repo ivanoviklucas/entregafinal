@@ -1,7 +1,7 @@
     /*index*/
     .contenedor-entrega {
         @include flex (flex, column, center, center);
-        background-color: white;
+        background-color:$color-secundario;
         width: 100vw;
         height: 95vh;
         color: $color-principal
@@ -91,11 +91,7 @@
         }
 
         .servicio {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
+            @include flex(flex, column, center, center); 
             img {
                 height: 70%;
                 width: 50%;
@@ -104,7 +100,7 @@
             h3 {
                 color: $color-principal;
                 background: cover;
-                background-color: rgb(5, 7, 12, 0.40%);
+                background-color: nth($lista-background-color,2);
                 font-size: nth($lista-fon-size, 4);
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                 font-weight: bolder;
@@ -148,7 +144,7 @@
         margin-top: 20px;
         object-fit: contain;
     }
-    .carousel-moto{ margin-top: 20px;}
+    
     .carousel-control-prev {
         width: 45%;
     }
@@ -191,7 +187,7 @@
         text-align: center;
         margin-top: 20px;
 
-        .problemon {
+        .contenedor-form-sello{
             display: flex;
             flex-direction: column;
         }
@@ -272,10 +268,7 @@
         @include flex(flex, row, space-evenly, center);
 
         .texto {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: left;
+            @include flex(flex, column, flex-start, left);
 
             .somos {
                 padding-top: 20px;
@@ -314,13 +307,10 @@
         }
 
         .redes-contacto {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
+            @include flex(flex, row, space-evenly, center);
             height: 50px;
             margin: 28px;
-            background-color: rgba(187, 179, 179, 0.938);
+            background-color:nth($colores-contacto, 3);
             border-radius: 80px;
 
             img {
@@ -340,28 +330,22 @@
     .form-contacto {
         padding-top: 15px;
         margin-bottom: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(flex,column,center, center);
         background-color: nth($colores-contacto, 3);
 
 
         .formulario {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(flex, column,center,center);
             margin-top: 20px;
             padding: 25px;
             width: 25%;
-            background-color: rgba(128, 128, 128, 0.3);
+            background-color: nth($lista-background-color, 1);
             border-radius: 80px;
             margin-top: 5px;
             margin-bottom: 5px;
 
             .row {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
+                @include flex(flex, column, center, flex-start);
                 margin-bottom: 8px;
                 gap: 8px;
                 margin-right: 2px;

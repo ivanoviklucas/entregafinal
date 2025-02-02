@@ -1,3 +1,5 @@
+/*variables*/
+/*listas*/
 /*mixin*/
 .pedinos .alert-primary {
   background-color: rgb(128, 128, 128);
@@ -99,7 +101,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100vw;
   height: 95vh;
   color: #0A0B0E;
@@ -191,7 +193,7 @@ body {
 .grid-index h3 {
   color: #0A0B0E;
   background: cover;
-  background-color: rgba(5, 7, 12, 0.004);
+  background-color: rgba(12, 9, 5, 0.004);
   font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
@@ -229,10 +231,6 @@ body {
   height: 40vh;
   margin-top: 20px;
   object-fit: contain;
-}
-
-.carousel-moto {
-  margin-top: 20px;
 }
 
 .carousel-control-prev {
@@ -276,7 +274,7 @@ body {
   text-align: center;
   margin-top: 20px;
 }
-.solicitud .problemon {
+.solicitud .contenedor-form-sello {
   display: flex;
   flex-direction: column;
 }
@@ -342,8 +340,8 @@ form section ul li {
 .contenedor-video .texto {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+  justify-content: flex-start;
+  align-items: left;
 }
 .contenedor-video .texto .somos {
   padding-top: 20px;
@@ -377,7 +375,7 @@ form section ul li {
   align-items: center;
   height: 50px;
   margin: 28px;
-  background-color: rgba(187, 179, 179, 0.938);
+  background-color: rgba(180, 179, 187, 0.938);
   border-radius: 80px;
 }
 .main-contacto .redes-contacto img {
@@ -392,12 +390,14 @@ form section ul li {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: #DFD9E2;
+  background-color: rgba(180, 179, 187, 0.938);
 }
 .form-contacto .formulario {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
   padding: 25px;
@@ -410,6 +410,7 @@ form section ul li {
 .form-contacto .formulario .row {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   margin-bottom: 8px;
   gap: 8px;
@@ -529,7 +530,7 @@ header {
   padding: 30px;
   margin: 10px;
   border: 2px solid #FFFFFF;
-  font-size: #DFD9E2;
+  font-size: rgba(180, 179, 187, 0.938);
   border-radius: 10vh;
   text-align: center;
   align-items: center;
@@ -573,7 +574,7 @@ header {
   }
   .lista-ventajas .ventaja h2 {
     background-color: #778DA9;
-    color: black;
+    color: #0A0B0E;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-decoration: underline;
     font-size: 15px;
@@ -673,7 +674,7 @@ header {
   .section-especial h2 {
     font-size: 35px;
     background-color: #0A0B0E;
-    color: white;
+    color: #FFFFFF;
   }
   .main-contacto .redes-contacto {
     background-color: rgb(7, 183, 253);
@@ -820,7 +821,7 @@ header {
     align-items: center;
     margin-top: 30px;
     height: 50%;
-    background-color: white;
+    background-color: #FFFFFF;
   }
   .carousel-moto {
     margin-top: 20px;
@@ -855,7 +856,7 @@ header {
   }
   .lista-ventajas .ventaja h2 {
     background-color: #778DA9;
-    color: black;
+    color: #0A0B0E;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     text-decoration: underline;
     font-size: 25px;
@@ -874,7 +875,7 @@ header {
   .grid-index .servicio h3 {
     color: #0A0B0E;
     background: cover;
-    background-color: rgba(5, 7, 12, 0.004);
+    background-color: rgba(12, 9, 5, 0.004);
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-weight: bolder;
