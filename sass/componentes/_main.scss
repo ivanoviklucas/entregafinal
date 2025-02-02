@@ -1,7 +1,7 @@
     /*index*/
     .contenedor-entrega {
         @include flex (flex, column, center, center);
-        background-color:$color-secundario;
+        background-color: $color-secundario;
         width: 100vw;
         height: 95vh;
         color: $color-principal
@@ -91,24 +91,26 @@
         }
 
         .servicio {
-            @include flex(flex, column, center, center); 
+            @include flex(flex, column, center, center);
+
             img {
                 height: 70%;
                 width: 50%;
             }
         }
-            h3 {
-                color: $color-principal;
-                background: cover;
-                background-color: nth($lista-background-color,2);
-                font-size: nth($lista-fon-size, 4);
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-weight: bolder;
-                transform: translate(0px);
-                transition-delay: 2seg;
-                transition: transform 0.5s ease-in-out
-            }
+
+        h3 {
+            color: $color-principal;
+            background: cover;
+            background-color: nth($lista-background-color, 2);
+            font-size: nth($lista-fon-size, 4);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            transform: translate(0px);
+            transition-delay: 2seg;
+            transition: transform 0.5s ease-in-out
         }
+    }
 
     .grid-index .servicio h3:hover {
         transform: translateY(-30px);
@@ -144,7 +146,7 @@
         margin-top: 20px;
         object-fit: contain;
     }
-    
+
     .carousel-control-prev {
         width: 45%;
     }
@@ -187,7 +189,7 @@
         text-align: center;
         margin-top: 20px;
 
-        .contenedor-form-sello{
+        .contenedor-form-sello {
             display: flex;
             flex-direction: column;
         }
@@ -242,7 +244,7 @@
         }
     }
 
-    .problemon {
+    .contenedor-form-sello{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -310,7 +312,7 @@
             @include flex(flex, row, space-evenly, center);
             height: 50px;
             margin: 28px;
-            background-color:nth($colores-contacto, 3);
+            background-color: nth($colores-contacto, 3);
             border-radius: 80px;
 
             img {
@@ -330,12 +332,12 @@
     .form-contacto {
         padding-top: 15px;
         margin-bottom: 30px;
-        @include flex(flex,column,center, center);
+        @include flex(flex, column, center, center);
         background-color: nth($colores-contacto, 3);
 
 
         .formulario {
-            @include flex(flex, column,center,center);
+            @include flex(flex, column, center, center);
             margin-top: 20px;
             padding: 25px;
             width: 25%;

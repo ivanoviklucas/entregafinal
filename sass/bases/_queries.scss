@@ -105,7 +105,7 @@
         padding-top: 15px;
     }
 
-    .problemon {
+    .contenedor-form-sello {
         flex-direction: column;
     }
 
@@ -343,7 +343,6 @@
             margin-top: 30px;
             height: 50%;
             background-color: $color-secundario
-
         }
     }
 
@@ -406,7 +405,7 @@
     .grid-index .servicio h3 {
         color: #0A0B0E;
         background: cover;
-        background-color: nth($lista-background-color,2);
+        background-color: nth($lista-background-color, 2);
         font-size: 25px;
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
         font-weight: bolder;

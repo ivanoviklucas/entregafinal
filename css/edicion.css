@@ -322,7 +322,7 @@ form section ul li {
   font-size: 40px;
 }
 
-.problemon {
+.contenedor-form-sello {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -632,7 +632,7 @@ header {
   .solicitud {
     padding-top: 15px;
   }
-  .problemon {
+  .contenedor-form-sello {
     flex-direction: column;
   }
   .zona {
