@@ -4,12 +4,12 @@ $color-secundario: #FFFFFF;
 $color-tersiario: #A0A5AB;
 $color-cuarto: #778DA9;
 $color-fondo-grid: #454545;
-$root:url(../../imag/);
+$root: url(../../imag/);
 $ancho: 100%-20%;
 /*listas*/
-$colores-contacto:  rgb(7, 183, 253), white, rgba(180, 179, 187, 0.938);
+$colores-contacto: rgb(7, 183, 253), white, rgb(180, 179, 187);
 $lista-fon-size: 10px, 15px, 20px, 25px, 30px, 40px, 60px;
-$lista-background-color: rgba(128, 128, 128, 0.3), rgba(12, 9, 5, 0.004);
+$lista-background-color: rgba(128, 128, 128, 0.3), rgba(12, 9, 5, 0.004), rgb(5, 7, 12, 0.40%);
 
 
 
@@ -33,7 +33,7 @@ $lista-background-color: rgba(128, 128, 128, 0.3), rgba(12, 9, 5, 0.004);
 
 }
 
-%items1{
+%items1 {
     background-color: rgb(128, 128, 128);
     color: white;
     text-align: center;
@@ -43,7 +43,8 @@ $lista-background-color: rgba(128, 128, 128, 0.3), rgba(12, 9, 5, 0.004);
 }
 
 
-%items2{background-color: $color-cuarto;
+%items2 {
+    background-color: $color-cuarto;
     border: solid black 1px;
     color: white;
     text-align: center;

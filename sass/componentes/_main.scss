@@ -244,7 +244,7 @@
         }
     }
 
-    .contenedor-form-sello{
+    .contenedor-form-sello {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -333,7 +333,7 @@
         padding-top: 15px;
         margin-bottom: 30px;
         @include flex(flex, column, center, center);
-        background-color: nth($colores-contacto, 3);
+        background-color: nth($colores-contacto,3);
 
 
         .formulario {

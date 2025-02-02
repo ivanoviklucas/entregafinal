@@ -375,7 +375,7 @@ form section ul li {
   align-items: center;
   height: 50px;
   margin: 28px;
-  background-color: rgba(180, 179, 187, 0.938);
+  background-color: rgb(180, 179, 187);
   border-radius: 80px;
 }
 .main-contacto .redes-contacto img {
@@ -392,7 +392,7 @@ form section ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(180, 179, 187, 0.938);
+  background-color: rgb(180, 179, 187);
 }
 .form-contacto .formulario {
   display: flex;
@@ -530,7 +530,7 @@ header {
   padding: 30px;
   margin: 10px;
   border: 2px solid #FFFFFF;
-  font-size: rgba(180, 179, 187, 0.938);
+  font-size: rgb(180, 179, 187);
   border-radius: 10vh;
   text-align: center;
   align-items: center;
@@ -677,7 +677,7 @@ header {
     color: #FFFFFF;
   }
   .main-contacto .redes-contacto {
-    background-color: rgba(180, 179, 187, 0.938);
+    background-color: rgb(180, 179, 187);
     border-radius: 80px;
   }
   .main-contacto .form-contacto .formulario {
