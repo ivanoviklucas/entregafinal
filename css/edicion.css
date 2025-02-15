@@ -653,7 +653,7 @@ header {
   .grid-nuevo h2 {
     justify-self: center;
     align-self: center;
-    font-size: 25px;
+    font-size: 20px;
     grid-column: 1;
     grid-row: 1;
   }
