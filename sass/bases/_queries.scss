@@ -258,6 +258,7 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px 230px;
         justify-content: space-evenly;
+        justify-items: center;
         width: 98%;
         background-color: gray;
         border-radius: 50px;
@@ -292,7 +293,6 @@
        };
        .item2{ justify-items: center;
        align-items: center;
-       text-align: center;
         grid-column: 2/3;
         grid-row: 2/2;
             img{width: 180px;
