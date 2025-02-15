@@ -52,7 +52,6 @@
  
     .grid-nuevo{
         width: 40%;
-        height: 95%;
         grid-auto-flow: column;
         justify-content: center;
         align-items: end;
@@ -259,7 +258,6 @@
         grid-auto-columns: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px 230px;
-        justify-items: center;
         width: 98%;
         h2{
         grid-column: span 3;
