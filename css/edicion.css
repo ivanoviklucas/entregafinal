@@ -710,6 +710,7 @@ header {
   .grid-nuevo .item1 p {
     margin-top: 2px;
     font-size: 15px;
+    text-align: center;
   }
   .grid-nuevo .item2 {
     justify-items: center;
@@ -724,6 +725,7 @@ header {
   .grid-nuevo .item2 p {
     margin-top: 2px;
     font-size: 15px;
+    text-align: center;
   }
   .grid-nuevo .item3 {
     justify-items: center;
@@ -739,6 +741,7 @@ header {
   .grid-nuevo .item3 p {
     margin-top: 2px;
     font-size: 15px;
+    text-align: center;
   }
   .footer-padre {
     display: flex;
@@ -914,7 +917,6 @@ header {
   .grid-nuevo .item2 p {
     background-color: rgba(173, 216, 230, 0.3);
     border-radius: 40px;
-    text-align: center;
     color: black;
     font-size: 30px;
     transform: translate(0px);
@@ -936,7 +938,6 @@ header {
     border-radius: 50px;
   }
   .grid-nuevo .item3 p {
-    text-align: center;
     background-color: rgba(173, 216, 230, 0.3);
     border-radius: 40px;
     font-size: 30px;
