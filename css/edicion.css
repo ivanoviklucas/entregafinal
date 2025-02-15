@@ -165,47 +165,6 @@ body {
   }
 }
 
-.grid-index {
-  height: 50%;
-  width: 100%;
-  background-color: #454545;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.grid-index .titulo-servicio {
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-.grid-index .servicio-extencion {
-  grid-column: span 4;
-}
-.grid-index .servicio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.grid-index .servicio img {
-  height: 70%;
-  width: 50%;
-}
-.grid-index h3 {
-  color: #0A0B0E;
-  background: cover;
-  background-color: rgba(12, 9, 5, 0.004);
-  font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bolder;
-  transform: translate(0px);
-  transition-delay: 2seg;
-  transition: transform 0.5s ease-in-out;
-}
-
-.grid-index .servicio h3:hover {
-  transform: translateY(-30px);
-}
-
 .ventaja:hover {
   transform: scale(1.1);
 }
