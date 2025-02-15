@@ -226,6 +226,101 @@ body {
   margin-right: 15px;
 }
 
+.grid-nuevo {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 100px 230px;
+  justify-content: space-evenly;
+  width: 70%;
+  background-color: gray;
+  border-radius: 50px;
+}
+.grid-nuevo h2 {
+  grid-column: span 3;
+  align-self: end;
+}
+.grid-nuevo .item1 {
+  justify-items: center;
+  align-items: center;
+  grid-row: 2/2;
+}
+.grid-nuevo .item1 img {
+  width: 180px;
+  height: 160px;
+  padding-top: 10px;
+  border-radius: 50px;
+}
+.grid-nuevo .item1 p {
+  background-color: rgba(173, 216, 230, 0.3);
+  color: black;
+  font-size: 30px;
+  transform: translate(0px);
+  transition-delay: 2seg;
+  transition: transform 0.5s ease-in-out;
+  border-radius: 40px;
+  margin-top: 10px;
+  padding: 5px;
+}
+.grid-nuevo .item2 {
+  justify-items: center;
+  align-items: center;
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+.grid-nuevo .item2 img {
+  width: 180px;
+  height: 160px;
+  padding-top: 10px;
+  border-radius: 50px;
+}
+.grid-nuevo .item2 p {
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 40px;
+  color: black;
+  font-size: 30px;
+  transform: translate(0px);
+  transition-delay: 2seg;
+  transition: transform 0.5s ease-in-out;
+  margin-top: 10px;
+  padding: 5px;
+}
+.grid-nuevo .item3 {
+  justify-items: center;
+  align-items: center;
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
+.grid-nuevo .item3 img {
+  padding-top: 10px;
+  width: 180px;
+  height: 160px;
+  border-radius: 50px;
+}
+.grid-nuevo .item3 p {
+  background-color: rgba(173, 216, 230, 0.3);
+  border-radius: 40px;
+  font-size: 30px;
+  color: black;
+  transform: translate(0px);
+  transition-delay: 2seg;
+  transition: transform 0.5s ease-in-out;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.grid-nuevo .item1 p:hover {
+  transform: translateY(-70px);
+}
+
+.grid-nuevo .item2 p:hover {
+  transform: translateY(-70px);
+}
+
+.grid-nuevo .item3 p:hover {
+  transform: translateY(-70px);
+}
+
 .w-100 {
   width: 80vw;
   height: 40vh;
@@ -553,7 +648,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #778DA9;
-    height: 120vh;
+    height: 150vh;
   }
   .lista-ventajas {
     display: flex;
@@ -587,28 +682,63 @@ header {
     height: 50px;
     width: 50px;
   }
-  .grid-index {
-    display: grid;
-    grid-template-columns: 1.5fr 3fr 1.5fr;
+  .grid-nuevo {
+    width: 40%;
+    height: 95%;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: end;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: 100px 120px 120px 120px;
+    row-gap: 10px;
   }
-  .grid-index .titulo-servicio {
-    background-color: rgba(5, 7, 12, 0.004);
-  }
-  .grid-index .titulo-servicio .servicio img {
-    height: 80%;
-    width: 80%;
-    margin-top: 10px;
-  }
-  .grid-index h3 {
-    color: #0A0B0E;
-    background: cover;
-    background-color: rgba(5, 7, 12, 0.004);
+  .grid-nuevo h2 {
+    justify-self: center;
+    align-self: center;
     font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-weight: bolder;
-    transform: translate(0px);
-    transition-delay: 2seg;
-    transition: transform 0.5s ease-in-out;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .grid-nuevo .item1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .grid-nuevo .item1 img {
+    width: 100px;
+    height: 100px;
+  }
+  .grid-nuevo .item1 p {
+    margin-top: 2px;
+    font-size: 15px;
+  }
+  .grid-nuevo .item2 {
+    justify-items: center;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .grid-nuevo .item2 img {
+    width: 100px;
+    height: 100px;
+  }
+  .grid-nuevo .item2 p {
+    margin-top: 2px;
+    font-size: 15px;
+  }
+  .grid-nuevo .item3 {
+    justify-items: center;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 10px;
+  }
+  .grid-nuevo .item3 img {
+    width: 100px;
+    height: 100px;
+  }
+  .grid-nuevo .item3 p {
+    margin-top: 2px;
+    font-size: 15px;
   }
   .footer-padre {
     display: flex;
@@ -701,7 +831,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 125vh;
+    height: 145vh;
     background-color: #778DA9;
   }
   .lista-ventajas {
@@ -733,23 +863,88 @@ header {
     height: 60x;
     width: 60px;
   }
-  .grid-index {
-    margin-bottom: 30px;
+  .grid-nuevo {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 230px;
+    justify-content: space-evenly;
+    width: 98%;
+    background-color: gray;
+    border-radius: 50px;
   }
-  .grid-index .servicio img {
-    height: 200px;
-    width: 200px;
+  .grid-nuevo h2 {
+    grid-column: span 3;
+    align-self: end;
   }
-  .grid-index .servicio h3 {
-    color: #0A0B0E;
-    background: cover;
-    background-color: rgba(5, 7, 12, 0.004);
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    font-weight: bolder;
+  .grid-nuevo .item1 {
+    justify-items: center;
+    align-items: center;
+    grid-row: 2/2;
+  }
+  .grid-nuevo .item1 img {
+    width: 180px;
+    height: 160px;
+    padding-top: 10px;
+    border-radius: 50px;
+  }
+  .grid-nuevo .item1 p {
+    background-color: rgba(173, 216, 230, 0.3);
+    color: black;
+    font-size: 30px;
     transform: translate(0px);
     transition-delay: 2seg;
     transition: transform 0.5s ease-in-out;
+    border-radius: 40px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .grid-nuevo .item2 {
+    justify-items: center;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 2/2;
+  }
+  .grid-nuevo .item2 img {
+    width: 180px;
+    height: 160px;
+    padding-top: 10px;
+    border-radius: 50px;
+  }
+  .grid-nuevo .item2 p {
+    background-color: rgba(173, 216, 230, 0.3);
+    border-radius: 40px;
+    color: black;
+    font-size: 30px;
+    transform: translate(0px);
+    transition-delay: 2seg;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .grid-nuevo .item3 {
+    justify-items: center;
+    align-items: center;
+    grid-column: 3/3;
+    grid-row: 2/2;
+  }
+  .grid-nuevo .item3 img {
+    padding-top: 10px;
+    width: 180px;
+    height: 160px;
+    border-radius: 50px;
+  }
+  .grid-nuevo .item3 p {
+    background-color: rgba(173, 216, 230, 0.3);
+    border-radius: 40px;
+    font-size: 30px;
+    color: black;
+    transform: translate(0px);
+    transition-delay: 2seg;
+    transition: transform 0.5s ease-in-out;
+    margin-top: 10px;
+    padding: 5px;
   }
   .footer-padre {
     display: flex;
