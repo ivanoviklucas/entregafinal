@@ -257,11 +257,8 @@
         grid-auto-columns: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px 230px;
-        justify-content: space-evenly;
         justify-items: center;
         width: 98%;
-        background-color: gray;
-        border-radius: 50px;
         h2{
         grid-column: span 3;
         align-self: end;
@@ -281,6 +278,7 @@
         }
         p{background-color: rgba(173, 216,230, 0.3);
             color:black;
+            text-align: center;
             font-size: 30px;
             transform: translate(0px);
             transition-delay: 2seg;
@@ -303,6 +301,7 @@
         }
         p{ background-color:  rgba(173, 216,230, 0.3);
             border-radius:40px;
+            text-align: center;
             color:black;
             font-size: 30px;
             transform: translate(0px);
@@ -325,7 +324,7 @@
             border-radius: 50px;
 
        }
-       p{
+       p{text-align: center;
         background-color: rgba(173, 216,230, 0.3);
         border-radius:40px;
         font-size: 30px;

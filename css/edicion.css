@@ -869,11 +869,8 @@ header {
     grid-auto-columns: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px 230px;
-    justify-content: space-evenly;
     justify-items: center;
     width: 98%;
-    background-color: gray;
-    border-radius: 50px;
   }
   .grid-nuevo h2 {
     grid-column: span 3;
@@ -893,6 +890,7 @@ header {
   .grid-nuevo .item1 p {
     background-color: rgba(173, 216, 230, 0.3);
     color: black;
+    text-align: center;
     font-size: 30px;
     transform: translate(0px);
     transition-delay: 2seg;
@@ -916,6 +914,7 @@ header {
   .grid-nuevo .item2 p {
     background-color: rgba(173, 216, 230, 0.3);
     border-radius: 40px;
+    text-align: center;
     color: black;
     font-size: 30px;
     transform: translate(0px);
@@ -937,6 +936,7 @@ header {
     border-radius: 50px;
   }
   .grid-nuevo .item3 p {
+    text-align: center;
     background-color: rgba(173, 216, 230, 0.3);
     border-radius: 40px;
     font-size: 30px;
