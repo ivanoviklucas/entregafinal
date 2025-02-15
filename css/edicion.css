@@ -103,7 +103,7 @@ body {
   align-items: center;
   background-color: #FFFFFF;
   width: 100vw;
-  height: 95vh;
+  height: 115vh;
   color: #0A0B0E;
 }
 
@@ -607,7 +607,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #778DA9;
-    height: 160vh;
+    height: 180vh;
   }
   .lista-ventajas {
     display: flex;
@@ -788,7 +788,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 145vh;
+    height: 165vh;
     background-color: #778DA9;
   }
   .lista-ventajas {

@@ -8,7 +8,7 @@
     .contenedor-entrega {
         @include flex (flex, column, center, center);
         background-color: $color-cuarto;
-        height: 160vh
+        height: 180vh
     }
 
     .lista-ventajas {
@@ -231,7 +231,7 @@
 
     .contenedor-entrega {
         @include flex (flex, column, center, center);
-        height: 145vh;
+        height: 165vh;
         background-color: $color-cuarto
     }
 
