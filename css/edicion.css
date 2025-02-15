@@ -824,7 +824,7 @@ header {
     grid-auto-columns: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px 230px;
-    width: 98%;
+    width: 95%;
   }
   .footer-padre {
     display: flex;

@@ -49,56 +49,75 @@
         }
 
     }
- 
-    .grid-nuevo{
+
+    .grid-nuevo {
         width: 40%;
         grid-auto-flow: column;
         justify-content: center;
         align-items: end;
         grid-template-columns: repeat(1, 100px);
-        grid-template-rows:  100px 120px 120px 120px;
+        grid-template-rows: 100px 120px 120px 120px;
         row-gap: 10px;
-        h2{justify-self: center;
+
+        h2 {
+            justify-self: center;
             align-self: center;
             font-size: 25px;
             grid-column: 1;
             grid-row: 1
+        }
 
+        .item1 {
+            grid-column: 1;
+            grid-row: 2;
+
+            img {
+                width: 100px;
+                height: 100px
+            }
+
+            p {
+                margin-top: 2px;
+                font-size: 15px;
+                text-align: center;
+            }
         }
-    .item1{
-        grid-column: 1;
-        grid-row: 2;
-        img{width: 100px;
-        height: 100px}
-        p{margin-top: 2px;
-            font-size: 15px;
-            text-align: center;
+
+        .item2 {
+
+            grid-column: 1;
+            grid-row: 3;
+
+            img {
+                width: 100px;
+                height: 100px
+            }
+
+            p {
+                margin-top: 2px;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+
+        .item3 {
+            grid-column: 1;
+            grid-row: 4;
+            font-size: 10px;
+
+            img {
+                width: 100px;
+                height: 100px
+            }
+
+            p {
+                margin-top: 2px;
+                font-size: 15px;
+                text-align: center
+            }
         }
     }
-    .item2{
-       
-        grid-column: 1;
-        grid-row: 3;
-     
-        img{width: 100px;
-        height: 100px}
-        p{margin-top:2px;
-            font-size: 15px;
-            text-align: center;
-        }
-    }
-    .item3{
-    grid-column: 1;
-        grid-row: 4;
-        font-size: 10px;
-        img{width: 100px;
-        height: 100px}
-        p{ margin-top:2px;
-            font-size: 15px;
-            text-align: center
-        }
-    }
-}
+
     .footer-padre {
         @include flex (flex, column, space-evenly, center);
         margin-top: 30px;
@@ -248,14 +267,16 @@
             height: 60x;
             width: 60px
         }
-    }    
-    .grid-nuevo{
+    }
+
+    .grid-nuevo {
         grid-auto-columns: auto;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 100px 230px;
-        width: 98%;
-     ;
-}
+        width: 95%;
+        ;
+    }
+
     .footer-padre {
         @include flex (flex, column, space-evenly, center);
         margin-top: 30px;
